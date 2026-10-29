@@ -1,8 +1,8 @@
 # AWS VPC Peering — Student Project
 
-**Student:** Subasri S.  
+**Student:** Subasri S 
 **Department:** Information Technology  
-**Institution:** University College of Engineering, Villupuram  
+**Institution:** University College of Engineering Villupuram  
 **Platform:** Amazon Web Services (AWS)  
 **Status:** Documentation and scripts prepared; live AWS validation/evidence is pending.
 
