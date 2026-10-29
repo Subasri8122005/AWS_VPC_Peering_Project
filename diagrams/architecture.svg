@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<rect width="1200" height="680" fill="#f7f9fc"/>
+<text x="600" y="48" font-family="Arial" font-size="30" font-weight="bold" text-anchor="middle" fill="#152238">AWS VPC Peering — Planned Architecture</text>
+<rect x="60" y="110" width="500" height="490" rx="20" fill="#eaf3ff" stroke="#3478c8" stroke-width="3"/>
+<text x="310" y="150" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle" fill="#174a86">VPC A · 10.10.0.0/16</text>
+<rect x="95" y="180" width="430" height="115" rx="12" fill="#fff" stroke="#6d9fd8" stroke-width="2"/>
+<text x="310" y="215" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#174a86">Public subnet · 10.10.1.0/24</text>
+<text x="310" y="250" font-family="Arial" font-size="18" text-anchor="middle" fill="#26354a">Bastion host (SSH entry)</text>
+<rect x="95" y="340" width="430" height="200" rx="12" fill="#fff" stroke="#6d9fd8" stroke-width="2"/>
+<text x="310" y="380" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#174a86">Private subnet · 10.10.2.0/24</text>
+<text x="310" y="435" font-family="Arial" font-size="22" text-anchor="middle" fill="#26354a">App-A</text>
+<text x="310" y="470" font-family="Arial" font-size="18" text-anchor="middle" fill="#26354a">Private IP: 10.10.2.10 (example)</text>
+<rect x="640" y="110" width="500" height="490" rx="20" fill="#eaf8ef" stroke="#29965b" stroke-width="3"/>
+<text x="890" y="150" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle" fill="#17623a">VPC B · 10.20.0.0/16</text>
+<rect x="675" y="340" width="430" height="200" rx="12" fill="#fff" stroke="#71bd91" stroke-width="2"/>
+<text x="890" y="380" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#17623a">Private subnet · 10.20.1.0/24</text>
+<text x="890" y="435" font-family="Arial" font-size="22" text-anchor="middle" fill="#26354a">App-B</text>
+<text x="890" y="470" font-family="Arial" font-size="18" text-anchor="middle" fill="#26354a">Private IP: 10.20.1.10 (example)</text>
+<path d="M525 435 C575 435,625 435,675 435" stroke="#7b4bd1" stroke-width="5" fill="none" stroke-dasharray="10,7"/>
+<text x="600" y="405" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#6b3bb4">VPC Peering</text>
+<text x="600" y="642" font-family="Arial" font-size="17" text-anchor="middle" fill="#5c6677">Planned design only — actual resource IDs, routes and test results must be recorded after deployment.</text>
+</svg>
